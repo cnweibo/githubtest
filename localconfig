@@ -1,0 +1,23 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = https://kidsit@github.com/cnweibo/githubtest.git
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "kidsitbranch"]
+	remote = origin
+	merge = refs/heads/kidsitbranch
+[alias]                                                                                                                                                                    
+        lg = log --oneline --decorate --all --graph                                                                                                                        
+        s = status -v                                                                                                                                                      
+        a = add                                                                                                                                                            
+        r = reset                                                                                                                                                          
+        ci = commit -m                                                                                                                                                     
+        r1 = reset HEAD~1                                                                                                                                                  
+        co = checkout                                                                                                                                                      
+        rs = remote show
