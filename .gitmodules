@@ -1,3 +1,3 @@
 [submodule "submods/newtestrepo"]
 	path = submods/newtestrepo
-	url = https://github.com/cnweibo/newtestrepo.git
+	url = git@github.com:cnweibo/newtestrepo.git
